@@ -1,6 +1,7 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-extras07.2.O/diet/aframe-extras.min.js"></script>
   </head>
   <body>
 	<a-scene>
@@ -12,7 +13,7 @@
 			<a-asset-item id="Space1.glb" src="Space1.glb"></a-asset-item>
 		</a-assets>
 		<!-- Display file -->
-		<a-entity gltf-model="#mSpace1.glb"></a-entity>
+		<a-entity gltf-model="#mSpace1.glb" animation-mixer></a-entity>
 	</a-scene>
   </body>
 </html>
